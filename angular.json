@@ -6,7 +6,9 @@
     "Frontend": {
       "projectType": "application",
       "schematics": {
+        
         "@schematics/angular:component": {
+          "styleext": "scss",
           "standalone": false
         },
         "@schematics/angular:directive": {
@@ -102,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
